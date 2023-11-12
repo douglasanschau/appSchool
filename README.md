@@ -12,7 +12,7 @@ Versão do NPM: 10.2.0
 
 # API School
 Esta aplicação é dependente de uma API para rodar, a API School. <br>
-Para fazer download e instalação dessa API é necessário acessar o link ao lado: https://github.com/douglasanschau/apiSchool/tree/main;
+Para fazer download e instalação dessa API é necessário acessar o link ao lado: [API School](https://github.com/douglasanschau/apiSchool/tree/main)
 
 
 
