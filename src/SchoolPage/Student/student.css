@@ -1,0 +1,128 @@
+
+#studentInfo .cardStudent {
+    box-shadow: 0 1px 4px 2px rgba(0,0,0,0.2);
+    width: 80%;
+    margin: 3% auto;
+    border-radius:10px; 
+}
+
+#studentInfo .cardStudent .cardTitle {
+    text-transform:uppercase;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    color: #FFFFFF;
+    background-color: #198754;
+    padding: 10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+#studentInfo .cardStudent .cardTitle  h1 { 
+    font-weight: 400 !important;
+    font-size: 25px;
+}
+
+#studentInfo .cardStudent .cardBody {
+    padding: 30px;
+}
+
+#studentInfo .cardStudent .row {
+    display:flex;
+    flex-direction:row;
+    gap: 2%;
+    
+}
+
+#studentInfo .cardStudent .studentPhoto {
+    width:100%;
+    border-bottom : 1px solid rgba(0,0,0,0.2);
+    padding: 0 5%; 
+    margin: 0 auto 3%;
+}
+
+#studentInfo .cardStudent .studentPhoto  .cardPhoto  {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 0 1px 4px 2px rgba(0,0,0,0.2);
+    border-radius:50%;
+    height:180px;
+    width:180px;
+}
+
+#studentInfo .cardStudent .studentPhoto .alterPhoto {
+    border:0;
+    width:180px;
+    margin:25px 0;
+    background-color:  rgb(25, 135, 84, 0.8);
+    color: #FFFFFF;
+    text-transform:uppercase;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+#studentInfo .cardStudent  #studentProfilePhoto {
+    object-fit: cover;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+}
+
+
+#studentInfo .cardStudent label, #studentInfo .cardStudent input, #studentInfo .cardStudent select {
+    display:block;
+    width:80%;
+}
+
+#studentInfo .cardStudent .personalInfo {
+    padding: 20px;
+    position: relative;
+    width:25%
+}
+
+#studentInfo .cardStudent .personalInfo:after {
+    content: '';
+    height: 100%; 
+    width: 1px;
+    
+    position: absolute;
+    right: 0;
+    top: 5%; 
+    
+    background-color: rgba(0,0,0,0.2);
+}
+
+#studentInfo .cardStudent .addressInfo {
+    width:60%;
+    margin-left:3%;
+}
+
+#studentInfo .cardStudent .saveButton {
+  width:100%;
+  margin-top:5%;
+  margin-right:3%;
+  text-align:right;
+}
+
+#studentInfo .cardStudent .saveButton button {
+    border:0;
+    width: 10%;
+    color: #FFF;
+    padding: 10px;
+    border-radius:10px;
+    text-transform:uppercase;
+    margin: 0 0.5%;
+
+}
+
+#studentInfo .cardStudent .saveButton .buttonSave {
+    background-color:  #198754;
+}
+
+#studentInfo .cardStudent .saveButton .buttonBack {
+    background-color:  #8f9091;
+}
+
+
+
+

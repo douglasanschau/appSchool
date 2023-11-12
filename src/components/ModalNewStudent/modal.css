@@ -1,0 +1,86 @@
+
+#modalNewStudent {
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0, 0.3);
+    z-index: 99;
+}
+
+#modalNewStudent .container {
+    position:fixed;
+    max-width: 600px;
+    top: 15%;
+    left: 0;
+    right:0;
+    margin:0 auto;
+    padding: 2em 2rem;
+    background-color: #FFF;
+    border-radius:3px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+}
+
+#modalNewStudent .close {
+    background-color: #fff;
+    border: 0;
+    color: #198754;
+    position:absolute;
+    top:15px;
+    right: 15px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 4px 15px;
+    border-radius:15px;
+}
+
+#modalNewStudent .modalContent {
+   margin: 5px 0;
+}
+
+
+#modalNewStudent label, #modalNewStudent input, #modalNewStudent select {
+    display:block;
+    font-size:18px;
+    width:90%;
+}
+
+#modalNewStudent label {
+    margin: 5px auto;
+    text-transform:uppercase;
+}
+
+#modalNewStudent input  {
+    margin: 0 auto 35px;
+}
+
+#modalNewStudent select {
+    margin:15px auto 45px;
+}
+
+#modalNewStudent .modalFooter {
+    margin: 0 auto;
+    width:90%;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    gap:2%;
+}
+
+#modalNewStudent .closeModal, #modalNewStudent .save {
+    border-radius:5px;
+    padding:7px 15px;
+    text-transform:uppercase;
+    border: 0;
+}
+
+
+#modalNewStudent .save {
+    color: #FFF;
+    background-color: rgba(25, 135, 84, 0.8);
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+} 
