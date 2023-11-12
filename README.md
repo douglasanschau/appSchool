@@ -10,6 +10,10 @@ Em caso de erro confirme a instalação da pasta <b>node_modules</b> caso não e
 Versão do Node.js : v21.1.0 <br>
 Versão do NPM: 10.2.0
 
+# API School
+Esta aplicação é dependente de uma API para rodar, a API School. <br>
+Para fazer download e instalação dessa API é necessário acessar o link ao lado: https://github.com/douglasanschau/apiSchool/tree/main;
+
 
 
 
