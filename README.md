@@ -3,7 +3,7 @@ Para acessar aplicação é possível fazer download do arquivo ou clonar o repo
 Ao baixar arquivo acessar pasta e rodar o comando <b>npm install</b> para baixar as dependências necessárias do npm. 
 
 # Possível Erro de Instalação
-Se ao rodar o comando <b>npm start</b> o terminal acusar o erro <b>Module not found: Can't resolve 'styled-component'<b> basta digitar o comando o <b>npm i styled-components</b>
+Se ao rodar o comando <b>npm start</b> o terminal acusar o erro <b>Module not found: Can't resolve 'styled-component'</b> basta digitar o comando o <b>npm i styled-components</b>
 
 # Rodar Aplicação 
 Para inicializar a aplicação basta rodar o comando <b>npm start</b>. <br>
